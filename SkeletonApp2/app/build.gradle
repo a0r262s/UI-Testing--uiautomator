@@ -1,0 +1,23 @@
+apply plugin: 'android'
+android {
+    compileSdkVersion 17
+    buildToolsVersion '19.0.3'
+
+    defaultConfig {
+        minSdkVersion 1
+        targetSdkVersion 11
+
+        testPackageName "com.example.android.skeletonapp.tests"
+        testInstrumentationRunner "android.test.InstrumentationTestRunner"
+    }
+
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+}
