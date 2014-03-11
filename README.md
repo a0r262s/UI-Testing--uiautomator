@@ -14,12 +14,9 @@ Ant apache-ant-1.9.3-bin
 JDK 1.7.0-b147 amd 64
 
 ------
-
 To create UI Tester from sample project using Android Studio this project can be helpful. 
 There were lots of errors b/c of conflicts of old project structure to Android Studio. 
-
 Import project SkeletonApp in Android Studio with the default settings. Nothing has been changed.
--------
 Terminal:
 
 \tools>	android update project --path ~\SkeletonApp2\app\src\main --subprojects --target android-17
