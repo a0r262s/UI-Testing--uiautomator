@@ -16,7 +16,7 @@ There were lots of errors b/c of conflicts of old project structure to Android S
 For example : Just 'opening' the project in Android Studio, and following the instructions from UI Testing, 'Package R does not exist' error was occured. 
 And then 'Importing' project, the error was "[dx] no classfiles specified".
 I googled for these issues and it was hints that I tried but none was helpful. 
-Then by following the steps below the errors and problems has been solved. 
+Then by following the steps below the errors and problems have been solved. 
 
 Import project SkeletonApp in Android Studio with the default settings. Nothing has been changed.
 
