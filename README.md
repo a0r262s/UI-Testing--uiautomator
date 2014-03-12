@@ -32,7 +32,7 @@ Copy in Android Studio ~\SkeletonApp2\app\bin to  ~\SkeletonApp2\app\src\android
 
 ~\SkeletonApp2\app\src\androidTest\java\com\example\android\skeletonapp>	ant build
 
-Connect your Android device to your development machine
+Connect your Android device to your development machine.
 
 ~\android-sdk\platform-tools>adb push ~\SkeletonApp2\app\src\androidTest\java\com\example\android\skeletonapp\bin\SkeletonApp.jar /data/local/tmp/
 
