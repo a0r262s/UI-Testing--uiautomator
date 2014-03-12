@@ -28,7 +28,7 @@ in Terminal from Android Studio:
 
 \tools>	android create uitest-project -n SkeletonApp -t 1 -p ~\SkeletonApp2\app\src\androidTest\java\com\example\android\skeletonapp
 
-Copy in Android Studio ~\SkeletonApp2\app\bin  to ~\SkeletonApp2\app\src\androidTest\java\com\example\android\skeletonapp to the error "[dx] no classfiles specified" being solved.
+Copy in Android Studio ~\SkeletonApp2\app\bin to  ~\SkeletonApp2\app\src\androidTest\java\com\example\android\skeletonapp for the error "[dx] no classfiles specified" being solved.
 
 ~\SkeletonApp2\app\src\androidTest\java\com\example\android\skeletonapp>	ant build
 
